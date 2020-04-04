@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Installation Guide
 - Install GIT - https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 - Install Docker - https://www.docker.com/products/docker-desktop
@@ -12,6 +13,16 @@
 
 ```javascript
 
+=======
+Installation Guide
+Install GIT - https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+Install Docker - https://www.docker.com/products/docker-desktop
+Build/Run
+Source code of the React app is based on "react-shopping-cart" app made under MIT license by Jefferson Ribeiro
+Requirements
+Node.js
+NPM
+>>>>>>> 8584e969c3ca70516ec8d250ccaa9ee28c1a54bf
 /* First, Install the needed packages */
 npm install
 
@@ -29,6 +40,7 @@ npm run wdio
 
 /* Deploy to Firebase */
 ./node_modules/.bin/firebase deploy --token=$FIREBASE_DEPLOY_TOKEN
+<<<<<<< HEAD
 
 
 ```
@@ -44,6 +56,16 @@ npm run wdio
 
 ### Copyright and license
 
+=======
+About tests .
+Unit tests
+All components have at least a basic smoke test
+Integration tests
+Fetch product and add to cart properly
+e2e
+Webdriverio - Add and remove product from cart
+Copyright and license
+>>>>>>> 8584e969c3ca70516ec8d250ccaa9ee28c1a54bf
 The MIT License (MIT). Please see License File for more information.
 
 Try to trigger
