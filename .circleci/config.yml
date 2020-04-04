@@ -8,7 +8,7 @@ jobs:
     <<: *vse
     steps:
       - checkout
-      - run: npm install -g node-gyp     
+      - run: npm install --global windows-build-tools     
       - run: npm run test
       - run: npm build
       
